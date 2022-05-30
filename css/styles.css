@@ -1,0 +1,24 @@
+:root {
+  --cell-size: 60px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+
+/* CONTENT */
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 2px solid black;
+}
+
