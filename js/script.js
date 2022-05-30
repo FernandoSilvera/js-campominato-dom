@@ -39,6 +39,7 @@ function createGrid(xCellsNum, yCellsNum) {
         } else {
           // Make the cell lightblue
           this.classList.add("bg-info")
+          points += 100;
         }
       }
     });
